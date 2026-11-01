@@ -56,3 +56,29 @@
 #orbit-community .search-results>h1{font-size:clamp(24px,4vw,34px);overflow-wrap:anywhere}
 #orbit-community .search-results .feed-main{margin-top:28px}
 #orbit-community .search button{min-width:64px}
+
+/* Clear Start: a tools-first dashboard, with community on its own tab. */
+#orbit-community{background:#faf8fd;color:#302445;--ink:#302445;--muted:#756c80;--accent:#7050a0;--tint:#eee6f8;--line:#e4ddeb}
+#orbit-community .app-header{height:auto;min-height:120px;display:grid;grid-template-columns:1fr auto 1fr;gap:12px;padding:18px 24px;background:white}
+#orbit-community .app-header .logo{grid-column:2;justify-self:center;font-size:23px;line-height:1.2}
+#orbit-community .logo strong{display:inline}
+#orbit-community .app-header .search{grid-column:1;grid-row:1;width:100%;max-width:270px}
+#orbit-community .app-header>nav{grid-column:1/-1;grid-row:2;margin:0;justify-content:center;flex-wrap:wrap;height:auto;gap:8px}
+#orbit-community .app-header nav>button{height:auto;font-size:14px;display:flex;gap:7px;padding:10px 13px;border-bottom:0}
+#orbit-community .app-header nav>button.active{background:#eee6f8}
+#orbit-community .workspace{max-width:1260px;padding:12px 30px 35px}
+#orbit-community .clear-intro{text-align:center;padding:25px 0 44px}
+#orbit-community .clear-eyebrow{font-size:11px;letter-spacing:2px;color:#7050a0;font-weight:800}
+#orbit-community .clear-intro h1{font-size:clamp(32px,3.4vw,48px);line-height:1.15;letter-spacing:-1.5px;margin:18px 0}
+#orbit-community .clear-intro p{font-size:17px;line-height:1.65;color:#756c80;margin:0 auto 20px;max-width:760px}
+#orbit-community .clear-free{display:inline-block;background:#eee6f8;color:#7050a0;font-size:12px;font-weight:700;padding:7px 13px}
+#orbit-community .clear-heading{display:flex;justify-content:space-between;align-items:center;gap:15px;margin:0 0 20px}
+#orbit-community .clear-heading h2{font-size:25px}#orbit-community .clear-heading>span{font-size:14px;color:#756c80}
+#orbit-community .clear-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}
+#orbit-community button.clear-tool{grid-column:span 2;text-align:left;display:flex;flex-direction:column;align-items:flex-start;background:white;border:1px solid #e4ddeb;padding:26px;min-height:235px;border-radius:0;box-shadow:none}
+#orbit-community button.clear-tool:nth-child(1){grid-column:span 3;background:#eee5f8}#orbit-community button.clear-tool:nth-child(2){grid-column:span 3;background:#f2edf8}
+#orbit-community .clear-icon{display:grid;place-items:center;width:44px;height:44px;background:#e5daef;margin-bottom:18px;color:#7050a0}
+#orbit-community .clear-tool h3{font-size:21px;line-height:1.3}#orbit-community .clear-tool p{font-size:16px;line-height:1.6;color:#756c80;margin:10px 0 24px}
+#orbit-community .clear-tool strong{font-size:14px;color:#7050a0;margin-top:auto}
+#orbit-community button.clear-tool:hover{border-color:#9570c3;background:#f1e9f8}
+@media(max-width:700px){#orbit-community .app-header{display:flex;flex-direction:column;padding:16px;gap:12px;min-height:0}#orbit-community .app-header .logo{align-self:center}#orbit-community .app-header .search{max-width:100%;width:100%}#orbit-community .app-header>nav{display:none}#orbit-community .workspace{padding:10px 18px 90px}#orbit-community .clear-intro{padding:20px 0 30px}#orbit-community .clear-intro p{font-size:16px}#orbit-community .clear-heading{display:block}#orbit-community .clear-heading>span{display:block;margin-top:8px}#orbit-community .clear-grid{grid-template-columns:1fr}#orbit-community button.clear-tool,#orbit-community button.clear-tool:nth-child(1),#orbit-community button.clear-tool:nth-child(2){grid-column:auto;min-height:0;padding:23px}#orbit-community .mobile-nav{display:flex}#orbit-community .mobile-nav button{font-size:12px}}
