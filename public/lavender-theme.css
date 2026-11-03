@@ -1,84 +1,119 @@
 /* Shared Passport palette. Welcome is deliberately excluded. */
 @media screen {
-:root[data-orbit-theme=lavender]{color-scheme:light;--orbit-ink:#352642;--orbit-muted:#725d80;--orbit-purple:#70478b}
-:root[data-orbit-theme=lavender] body{background:#f6f3fb;color:#352642}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo{--cc-bg:#f6f3fb!important;--cc-paper:#fff!important;--cc-text:#352642!important;--cc-sub:#725d80!important;--cc-line:#dfd1e9!important;--cc-brand:#70478b!important;--cc-on:#fff!important;--cc-lilac:#eee2f7!important;--cc-mint:#eee5f6!important;--cc-peach:#faeaf2!important;--cc-yellow:#fff3d6!important;--cc-blue:#eee2f7!important;--cc-danger:#a12d54!important;color-scheme:light!important}
-:root[data-orbit-theme=lavender] #campus-admin{--a-bg:#f6f3fb!important;--a-panel:#fff!important;--a-raised:#eee5f6!important;--a-border:#dfd1e9!important;--a-text:#352642!important;--a-muted:#725d80!important;--a-cyan:#70478b!important;--a-purple:#70478b!important;--a-deep:#f1e8f8!important;--a-good:#326348!important;--a-warn:#825b1f!important;--a-error:#a12d54!important;--a-glow:#dbc1ee44!important;color-scheme:light!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-primary{box-shadow:0 3px 0 #70478b16!important}
-:root[data-orbit-theme=lavender] #campus-admin .primary{box-shadow:0 3px 0 #70478b16!important}
-:root[data-orbit-theme=lavender] .account-bar{border-bottom:1px solid #d9c7e6!important;background:#f4edf9!important}
-:root[data-orbit-theme=lavender] .account-bar button,:root[data-orbit-theme=lavender] .recovery-panel button,:root[data-orbit-theme=lavender] .public-portfolio button{background:#eadcf5!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .recovery-panel,:root[data-orbit-theme=lavender] .public-portfolio{background:#f4edf9!important;border:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] .recovery-panel pre{background:#f4edf9!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .public-portfolio article{border:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] .public-portfolio a{color:#513366!important}
-:root[data-orbit-theme=lavender] .live-eyebrow{color:#513366!important}
-:root[data-orbit-theme=lavender] .live-save-note{color:#513366!important}
-:root[data-orbit-theme=lavender] .live-share{background:#f4edf9!important}
-:root[data-orbit-theme=lavender] .live-notice{background:#f4edf9!important}
-:root[data-orbit-theme=lavender] .live-auth-extra input{background:#f4edf9!important;border:1px solid #d9c7e6!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .live-admin-access a{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo,:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-main,:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-card{background:#eadcf5!important;color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo p,:root[data-orbit-theme=lavender] #hologram-collexion-demo h2,:root[data-orbit-theme=lavender] #hologram-collexion-demo h3{color:#513366!important}
-:root[data-orbit-theme=lavender] .public-portfolio{background:#eadcf5!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .recovery-private{background:#f4edf977!important;border:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-role:hover{border-color:#d9c7e6!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-role>span:last-child{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step::before{background:#f4edf9!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step-number{background:#eadcf5!important;color:#513366!important;box-shadow:0 0 25px #70478b22!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-practice{border-left:2px solid #d9c7e6!important;background:#eadcf511!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step summary{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step a{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-field{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-field input,:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-field textarea{border:1px solid #d9c7e6!important;background:#f4edf9!important;color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-editor fieldset{border:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-editor legend{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-layout-row{border-bottom:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo #career-notice{color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-subject{border:1px solid #d9c7e655!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-unit{border-bottom:1px solid #d9c7e644!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-task{border-bottom:1px solid #d9c7e633!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-resources,:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-question{border:1px solid #d9c7e655!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-field input,:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-unit select,:root[data-orbit-theme=lavender] #hologram-collexion-demo [data-study-field="language"],:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-paper-subject,:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-paper-unit,:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-date-text,:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-question,:root[data-orbit-theme=lavender] #hologram-collexion-demo .checkpoint input:not([type=checkbox]),:root[data-orbit-theme=lavender] #hologram-collexion-demo .checkpoint textarea{border:1px solid #d9c7e6!important;background:#f4edf9!important;color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-practice{border-left:2px solid #d9c7e6!important;background:#eadcf50a!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo .exam-reminders{border:1px solid #d9c7e655!important;background:#eadcf508!important}
-:root[data-orbit-theme=lavender] .pd-hero{border:1px solid #d9c7e65c!important;background:radial-gradient(ellipse at top right,#eadcf555,transparent 60%),linear-gradient(125deg,#f4edf9,#f4edf9)!important}
-:root[data-orbit-theme=lavender] .pd-field input,:root[data-orbit-theme=lavender] .pd-field select,:root[data-orbit-theme=lavender] .pd-field textarea{border:1px solid #d9c7e6!important;background:#f4edf9!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-task{border:1px solid #d9c7e655!important;background:#f4edf988!important}
-:root[data-orbit-theme=lavender] .pd-answer{border-left:3px solid #d9c7e6!important;background:#eadcf50c!important}
-:root[data-orbit-theme=lavender] .pd-entry{border-color:#d9c7e6!important}
-:root[data-orbit-theme=lavender] .pd-desk .c-tabs [aria-pressed=true]{background:#eadcf5!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-desk a{color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-notice{border:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] #campus-admin #placement-content-form fieldset{border:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] .pd-round{border:1px solid #d9c7e6!important;background:#f4edf9!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-round span{color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-round small{color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-round[aria-pressed=true]{border:2px solid #d9c7e6!important;background:#f4edf9!important}
-:root[data-orbit-theme=lavender] .pd-code{background:#f4edf9!important;color:#513366!important}
-:root[data-orbit-theme=lavender] .pd-round:focus-visible{outline:3px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] #campus-admin .studio-row{border-bottom:1px solid #d9c7e6!important}
-:root[data-orbit-theme=lavender] .visual-panel{border-bottom:2px solid #d9c7e6!important}
+:root[data-orbit-theme=lavender]{color-scheme:light;--orbit-ink:#233967;--orbit-muted:#5c6787;--orbit-purple:#346be5}
+:root[data-orbit-theme=lavender] body{background:#f5f8ff;color:#233967}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo{--cc-bg:#f5f8ff!important;--cc-paper:#fff!important;--cc-text:#233967!important;--cc-sub:#5c6787!important;--cc-line:#dce4f5!important;--cc-brand:#346be5!important;--cc-on:#fff!important;--cc-lilac:#ece9ff!important;--cc-mint:#edf1ff!important;--cc-peach:#f0ebff!important;--cc-yellow:#e8f5ff!important;--cc-blue:#ece9ff!important;--cc-danger:#a12d54!important;color-scheme:light!important}
+:root[data-orbit-theme=lavender] #campus-admin{--a-bg:#f5f8ff!important;--a-panel:#fff!important;--a-raised:#edf1ff!important;--a-border:#dce4f5!important;--a-text:#233967!important;--a-muted:#5c6787!important;--a-cyan:#346be5!important;--a-purple:#346be5!important;--a-deep:#e9efff!important;--a-good:#326348!important;--a-warn:#825b1f!important;--a-error:#a12d54!important;--a-glow:#b7caff44!important;color-scheme:light!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-primary{box-shadow:0 3px 0 #346be516!important}
+:root[data-orbit-theme=lavender] #campus-admin .primary{box-shadow:0 3px 0 #346be516!important}
+:root[data-orbit-theme=lavender] .account-bar{border-bottom:1px solid #d4def4!important;background:#f0f4ff!important}
+:root[data-orbit-theme=lavender] .account-bar button,:root[data-orbit-theme=lavender] .recovery-panel button,:root[data-orbit-theme=lavender] .public-portfolio button{background:#edf0ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .recovery-panel,:root[data-orbit-theme=lavender] .public-portfolio{background:#f0f4ff!important;border:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] .recovery-panel pre{background:#f0f4ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .public-portfolio article{border:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] .public-portfolio a{color:#233967!important}
+:root[data-orbit-theme=lavender] .live-eyebrow{color:#233967!important}
+:root[data-orbit-theme=lavender] .live-save-note{color:#233967!important}
+:root[data-orbit-theme=lavender] .live-share{background:#f0f4ff!important}
+:root[data-orbit-theme=lavender] .live-notice{background:#f0f4ff!important}
+:root[data-orbit-theme=lavender] .live-auth-extra input{background:#f0f4ff!important;border:1px solid #d4def4!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .live-admin-access a{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo,:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-main,:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-card{background:#edf0ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo p,:root[data-orbit-theme=lavender] #hologram-collexion-demo h2,:root[data-orbit-theme=lavender] #hologram-collexion-demo h3{color:#233967!important}
+:root[data-orbit-theme=lavender] .public-portfolio{background:#edf0ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .recovery-private{background:#f0f4ff77!important;border:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-role:hover{border-color:#d4def4!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-role>span:last-child{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step::before{background:#f0f4ff!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step-number{background:#edf0ff!important;color:#233967!important;box-shadow:0 0 25px #346be522!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-practice{border-left:2px solid #d4def4!important;background:#edf0ff11!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step summary{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .career-step a{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-field{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-field input,:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-field textarea{border:1px solid #d4def4!important;background:#f0f4ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-editor fieldset{border:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-editor legend{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-layout-row{border-bottom:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo #career-notice{color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-subject{border:1px solid #d4def455!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-unit{border-bottom:1px solid #d4def444!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-task{border-bottom:1px solid #d4def433!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-resources,:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-question{border:1px solid #d4def455!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-field input,:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-unit select,:root[data-orbit-theme=lavender] #hologram-collexion-demo [data-study-field="language"],:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-paper-subject,:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-paper-unit,:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-date-text,:root[data-orbit-theme=lavender] #hologram-collexion-demo #study-question,:root[data-orbit-theme=lavender] #hologram-collexion-demo .checkpoint input:not([type=checkbox]),:root[data-orbit-theme=lavender] #hologram-collexion-demo .checkpoint textarea{border:1px solid #d4def4!important;background:#f0f4ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .study-practice{border-left:2px solid #d4def4!important;background:#edf0ff0a!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .exam-reminders{border:1px solid #d4def455!important;background:#edf0ff08!important}
+:root[data-orbit-theme=lavender] .pd-hero{border:1px solid #d4def45c!important;background:radial-gradient(ellipse at top right,#edf0ff55,transparent 60%),linear-gradient(125deg,#f0f4ff,#f0f4ff)!important}
+:root[data-orbit-theme=lavender] .pd-field input,:root[data-orbit-theme=lavender] .pd-field select,:root[data-orbit-theme=lavender] .pd-field textarea{border:1px solid #d4def4!important;background:#f0f4ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-task{border:1px solid #d4def455!important;background:#f0f4ff88!important}
+:root[data-orbit-theme=lavender] .pd-answer{border-left:3px solid #d4def4!important;background:#edf0ff0c!important}
+:root[data-orbit-theme=lavender] .pd-entry{border-color:#d4def4!important}
+:root[data-orbit-theme=lavender] .pd-desk .c-tabs [aria-pressed=true]{background:#edf0ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-desk a{color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-notice{border:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] #campus-admin #placement-content-form fieldset{border:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] .pd-round{border:1px solid #d4def4!important;background:#f0f4ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-round span{color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-round small{color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-round[aria-pressed=true]{border:2px solid #d4def4!important;background:#f0f4ff!important}
+:root[data-orbit-theme=lavender] .pd-code{background:#f0f4ff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] .pd-round:focus-visible{outline:3px solid #d4def4!important}
+:root[data-orbit-theme=lavender] #campus-admin .studio-row{border-bottom:1px solid #d4def4!important}
+:root[data-orbit-theme=lavender] .visual-panel{border-bottom:2px solid #d4def4!important}
 
-:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) :is(input,select,textarea){background:#fff!important;color:#352642!important;border-color:#d9c7e6!important;accent-color:#70478b}
-:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) :is(.c-primary,.btn.primary){background:#70478b!important;color:#fff!important;border-color:#70478b!important;box-shadow:0 3px 0 #573169!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.pd-hero,.pd-task,.c-banner,.c-callout,.c-note,.c-mint,.c-blue,.c-lilac,.study-practice,.exam-reminders){background:#eee5f6!important;border-color:#d9c7e6!important;color:#513366!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.pd-field,.pd-hero p,.pd-task small,.c-small,legend){color:#725d80!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.dash-main,.dash-content,.c-body){background:#f6f3fb!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.dash-side,.dash-top,.c-card,.c-subject,.pd-task){background:#fff!important;color:#352642!important}
-:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(h1,h2,h3,h4){color:#352642!important;text-shadow:none!important}
-:root[data-orbit-theme=lavender] .account-bar{background:#f1e8f8!important;color:#513366;border-color:#dfd1e9}
-:root[data-orbit-theme=lavender] .account-bar button{background:#e7d7f2!important;color:#513366!important}
-:root[data-orbit-theme=lavender] #campus-admin :is(h1,h2,h3){color:#352642}
-:root[data-orbit-theme=lavender] #campus-admin :is(.pill,.notice,.message,.metric,.panel){border-color:#dfd1e9}
+:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) :is(input,select,textarea){background:#fff!important;color:#233967!important;border-color:#d4def4!important;accent-color:#346be5}
+:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) :is(.c-primary,.btn.primary){background:#346be5!important;color:#fff!important;border-color:#346be5!important;box-shadow:0 3px 0 #284d9b!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.pd-hero,.pd-task,.c-banner,.c-callout,.c-note,.c-mint,.c-blue,.c-lilac,.study-practice,.exam-reminders){background:#edf1ff!important;border-color:#d4def4!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.pd-field,.pd-hero p,.pd-task small,.c-small,legend){color:#5c6787!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.dash-main,.dash-content,.c-body){background:#f5f8ff!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.dash-side,.dash-top,.c-card,.c-subject,.pd-task){background:#fff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(h1,h2,h3,h4){color:#233967!important;text-shadow:none!important}
+:root[data-orbit-theme=lavender] .account-bar{background:#e9efff!important;color:#233967;border-color:#dce4f5}
+:root[data-orbit-theme=lavender] .account-bar button{background:#e4eaff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #campus-admin :is(h1,h2,h3){color:#233967}
+:root[data-orbit-theme=lavender] #campus-admin :is(.pill,.notice,.message,.metric,.panel){border-color:#dce4f5}
 :root[data-orbit-theme=lavender] #campus-admin .primary{color:#fff!important}
 :root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-paper :is(h1,h2,h3,p){color:#242424!important}
-:root[data-orbit-theme=lavender] #campus-signature-pair :is(.world,.auth-stage,.auth-panel,.auth-card,.auth-form,.login-panel){background:#f6f3fb!important;color:#352642!important;--ink:#352642;--muted:#725d80;--surface:#fff;--bg:#f6f3fb;--edge:#dfd1e9;--accent:#70478b;--on:#fff}
-:root[data-orbit-theme=lavender] #campus-signature-pair :is(input,select,textarea){background:#fff!important;color:#352642!important;border-color:#d9c7e6!important}
+:root[data-orbit-theme=lavender] #campus-signature-pair :is(.world,.auth-stage,.auth-panel,.auth-card,.auth-form,.login-panel){background:#f5f8ff!important;color:#233967!important;--ink:#233967;--muted:#5c6787;--surface:#fff;--bg:#f5f8ff;--edge:#dce4f5;--accent:#346be5;--on:#fff}
+:root[data-orbit-theme=lavender] #campus-signature-pair :is(input,select,textarea){background:#fff!important;color:#233967!important;border-color:#d4def4!important}
 }
 
-@media screen { :root[data-orbit-theme=lavender] :is(.account-email,#save-status){color:#725d80!important} :root[data-orbit-theme=lavender] #save-status.error{color:#a12d54!important} }
+@media screen { :root[data-orbit-theme=lavender] :is(.account-email,#save-status){color:#5c6787!important} :root[data-orbit-theme=lavender] #save-status.error{color:#a12d54!important} }
 @media screen {
 :root[data-orbit-theme=lavender] #campus-signature-pair .login-world{opacity:.18!important;filter:grayscale(1) sepia(.15)!important;pointer-events:none}
 :root[data-orbit-theme=lavender] #campus-signature-pair .login-copy{position:relative;z-index:2}
+}
+/* CGPA Booster / Prism Arcade shared application surfaces. Print resumes stay plain. */
+@media screen {
+:root[data-orbit-theme=lavender] body{background:radial-gradient(ellipse at top right,#ece9ff,transparent 65%),#f5f8ff}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo{border-radius:18px!important;overflow:hidden;--cc-brand:#346be5!important;--cc-text:#233967!important;--cc-sub:#5c6787!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-side,:root[data-orbit-theme=lavender] #campus-admin .side{background:linear-gradient(160deg,#17296d,#243f85)!important;color:#e5edff!important;border-color:#ffffff20!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-side :is(.dash-brand,.dash-label,.dash-side-note,.dash-side-bottom,.dash-account,.c-nav),:root[data-orbit-theme=lavender] #campus-admin .side :is(.brand,.navlabel,.sidefoot,button){color:#dce8ff!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-nav[aria-current],:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-nav.active,:root[data-orbit-theme=lavender] #campus-admin .side button.active{background:#ffffff20!important;color:#fff!important;border-color:#b6a6f5!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-top,:root[data-orbit-theme=lavender] #campus-admin .top{background:linear-gradient(110deg,#edf2ff,#f2eaff)!important;border-color:#dce4f5!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.c-card,.c-subject,.pd-task,.career-role,.study-subject),:root[data-orbit-theme=lavender] #campus-admin :is(.panel,.metric){background:linear-gradient(135deg,#fff,#faf9ff)!important;border:1px solid #e0def7!important;border-radius:17px!important;box-shadow:0 5px 0 #dce4f533,0 12px 25px #2448800b!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.c-primary,.c-btn.c-primary),:root[data-orbit-theme=lavender] #campus-admin :is(.primary,.btn.primary){background:linear-gradient(110deg,#346be5,#7664dc)!important;color:white!important;border-color:transparent!important;border-radius:10px!important;box-shadow:0 4px 12px #345db32b!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.c-btn,.c-tabs button,.pd-round),:root[data-orbit-theme=lavender] #campus-admin button{border-radius:10px!important;transition:transform .16s,box-shadow .16s}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .c-tabs [aria-pressed=true]{background:#346be5!important;color:#fff!important;border-color:#346be5!important}
+:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) :is(input,select,textarea){border-radius:9px!important;box-shadow:inset 0 1px 3px #203e7807}
+:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) :is(button,input,select,textarea,a):focus-visible{outline:3px solid #8a79ec!important;outline-offset:3px}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.pd-hero,.dash-intro){background:radial-gradient(ellipse at top right,#7056b6,transparent 65%),#17296d!important;color:#fff!important;border:1px solid #5669a7!important;border-radius:18px!important;padding:28px!important;position:relative;overflow:hidden}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.pd-hero,.dash-intro) :is(h1,h2,h3,p,.c-eyebrow,.dash-kicker){color:#e6efff!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .pd-hero .c-primary{background:#fff!important;color:#233967!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(.c-banner,.c-callout,.c-note,.c-mint,.c-blue,.c-lilac,.study-practice,.exam-reminders){background:linear-gradient(120deg,#edf0ff,#f4ecff)!important;border-radius:13px!important;border-color:#d6d8f4!important}
+:root[data-orbit-theme=lavender] .account-bar{background:#17296d!important;color:#fff!important;border-color:#ffffff22!important}
+:root[data-orbit-theme=lavender] .account-bar :is(.account-email,#save-status){color:#d2dfff!important}
+:root[data-orbit-theme=lavender] .account-bar button{background:#ffffff18!important;color:#fff!important;border-color:#ffffff33!important;border-radius:8px!important}
+:root[data-orbit-theme=lavender] #orbit-tools-return{margin:18px 24px;padding:12px 18px;border-radius:10px;background:#346be5;color:#fff;border:0;box-shadow:0 5px 14px #345db32b}
+:root[data-orbit-theme=lavender] #campus-signature-pair .login-card{background:#ffffffef!important;border:1px solid #d9def4!important;border-radius:20px!important;box-shadow:0 20px 55px #3d438325!important;backdrop-filter:blur(12px)}
+:root[data-orbit-theme=lavender] #campus-signature-pair .action{background:linear-gradient(110deg,#346be5,#7664dc)!important;color:#fff!important;border-radius:10px!important}
+:root[data-orbit-theme=lavender] #campus-signature-pair .login-world{filter:none!important;opacity:.28!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-paper{background:#fff!important;color:#242424!important;box-shadow:0 8px 25px #24488016!important;border-radius:0!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .resume-paper :is(h1,h2,h3,p){color:#242424!important}
+@media(hover:hover){:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) button:hover{transform:translateY(-2px)}}
+@media(prefers-reduced-motion:reduce){:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) *{animation:none!important;transition:none!important;scroll-behavior:auto!important}:root[data-orbit-theme=lavender] :is(#hologram-collexion-demo,#campus-admin) button:hover{transform:none}}
+}
+@media screen {
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-side :is(button,.dash-brand span,.dash-brand strong,.dash-brand b){color:#e5edff!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-side button[aria-pressed=true]{background:#edf0ff!important;color:#244c9b!important}
+:root[data-orbit-theme=lavender] #hologram-collexion-demo :is(h1,h2,h3,.dash-brand){font-family:Manrope,Arial,sans-serif!important}
 }
