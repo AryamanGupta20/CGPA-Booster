@@ -117,3 +117,6 @@
 :root[data-orbit-theme=lavender] #hologram-collexion-demo .dash-side button[aria-pressed=true]{background:#edf0ff!important;color:#244c9b!important}
 :root[data-orbit-theme=lavender] #hologram-collexion-demo :is(h1,h2,h3,.dash-brand){font-family:Manrope,Arial,sans-serif!important}
 }
+@media screen {
+:root[data-orbit-theme=lavender] #hologram-collexion-demo .pd-hero :is(.pd-field,label){color:#dce8ff!important}
+}
