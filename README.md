@@ -1,8 +1,10 @@
-# Campus Orbit
+# CGPA Booster
 
 A semester project for students moving into college and tech degrees.
 
-Includes the Midnight Observatory welcome/login, Hologram Lab student dashboard, and admin dashboard. Five areas: College Courses, Social & Confidence, Entrepreneurship, Student Money, and Service Studio.
+CGPA Booster brings study and career support into one student website, with a Prism Arcade dashboard and an admin dashboard.
+
+For setup instructions, see [Run on another laptop](docs/run-on-another-laptop.md).
 
 ## Run on your computer
 
