@@ -28,3 +28,22 @@ Do not include `.campus-data/`, private environment files, passwords, or secret 
 - **The page will not open:** check that the terminal is still running and use port 4173.
 
 The local address works only on this laptop. Share the hosted website link when friends need to use the website from their own devices. Running locally does not deploy changes to Cloudflare.
+
+## Use a different local port
+
+If port 4173 is busy, use one of these commands, then open http://127.0.0.1:4174.
+
+**Windows PowerShell:**
+
+```powershell
+$env:PORT = '4174'
+npm start
+```
+
+**macOS or Linux:**
+
+```sh
+PORT=4174 npm start
+```
+
+To return to the default port in PowerShell, stop the server and run `Remove-Item Env:PORT`, then run `npm start` again.
