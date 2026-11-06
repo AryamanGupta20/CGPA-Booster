@@ -4,7 +4,13 @@ A semester project for students moving into college and tech degrees.
 
 CGPA Booster brings study and career support into one student website, with a Prism Arcade dashboard and an admin dashboard.
 
-For setup instructions, see [Run on another laptop](docs/run-on-another-laptop.md).
+## Project guides
+
+- [Run on another laptop](docs/run-on-another-laptop.md) — setup and common local errors.
+- [Class demo checklist](docs/class-demo-checklist.md) — checks before a presentation.
+- [Contributing guide](CONTRIBUTING.md) — how to prepare and check changes.
+- [Report a bug](https://github.com/AryamanGupta20/CGPA-Booster/issues/new?template=bug_report.md) — describe a problem with steps to repeat it.
+- [Suggest a feature](https://github.com/AryamanGupta20/CGPA-Booster/issues/new?template=feature_request.md) — explain the student problem and proposed improvement.
 
 ## Run on your computer
 
