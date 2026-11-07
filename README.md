@@ -42,9 +42,11 @@ node tests/admin-screens.test.cjs
 
 API tests use real in-memory SQLite. Screen tests use a DOM stub; they are not browser visual tests.
 
-## Current status
+## Hosted website
 
-Source uploaded for deployment preparation. Not a confirmed live website. Hosting, production storage and browser checks still need to be completed. A GitHub repository URL is not the application URL.
+Open [CGPA Booster](https://collexion-campus.aryamangupta55.workers.dev/). The address keeps the original project name so existing links continue to work. The GitHub repository contains the source code; it is not the website login page.
+
+The local server uses a separate database on your laptop. Local accounts and changes do not automatically appear on the hosted website. Check the live website before a presentation; a source commit alone does not prove a successful deployment.
 
 The course material is a general guide with curated external video links, not a verified university-specific syllabus. The WhatsApp link opens a channel, not a discussion group. Portfolios are private unless students choose to share them.
 
