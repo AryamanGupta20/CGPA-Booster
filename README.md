@@ -50,17 +50,17 @@ The local server uses a separate database on your laptop. Local accounts and cha
 
 The course material is a general guide with curated external video links, not a verified university-specific syllabus. The WhatsApp link opens a channel, not a discussion group. Portfolios are private unless students choose to share them.
 
-## Free Cloudflare deployment
+## Cloudflare deployment
 
-[Deploy to Cloudflare](https://deploy.workers.cloudflare.com/?url=https://github.com/AryamanGupta20/Collection-Campus)
+The project uses two Workers. The public Worker serves the website and forwards API requests through a service binding. The private backend handles API requests and uses the D1 database. See [Separate hosting](docs/separate-hosting.md) for the architecture and deployment notes.
 
-Sign in to Cloudflare, stay on the Free plan, and connect GitHub. The deployment flow creates a repository copy and a D1 database. Choose your own private ADMIN_SETUP_TOKEN in the secret field. Never paste it into a public file or chat. The placeholder database ID is replaced by Cloudflare during resource setup.
+After installing development dependencies with `npm ci` in a checkout containing the lockfile:
 
-Use the default deploy command from package.json. It applies the database migrations and then publishes the Worker and page assets. After deployment, open the workers.dev URL Cloudflare returns. Create the admin account using the reserved owner email, your own password, and the private setup code.
+- `npm run deploy` applies D1 migrations using `wrangler.backend.json`, then deploys the public Worker.
+- `npm run deploy:backend` deploys the backend using `wrangler.backend.json`.
 
-The free deployment stores small attachments in D1 along with accounts. Each file is limited to 1 MB; no paid R2 subscription is required. D1 Free currently limits each database to 500 MB and has daily usage limits. If a free limit is reached, service can become unavailable; this configuration does not opt into a paid plan. This is intended for a small class project. Monitor database use and keep backups.
+These commands change the hosted environment and require Cloudflare access. They are not needed to run the website locally. Do not run them just to preview a page.
 
-Official setup reference: https://developers.cloudflare.com/workers/platform/deploy-buttons/
-Free database limits: https://developers.cloudflare.com/d1/platform/limits/
+Keep API changes compatible while the two deployments complete. Do not rename Worker bindings or replace the database as part of a branding update. Store credentials in private service settings, never in source files.
 
-Deployment has not yet been verified. Before sharing widely, test registration, login, admin-only access, a file upload/download and saving data after logout.
+Monitor the active plan and current usage limits before increasing traffic. This project does not establish unlimited capacity. After a deployment, check registration, login, admin-only access, uploads and saving data after logout using test accounts.
