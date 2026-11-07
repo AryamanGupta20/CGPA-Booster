@@ -34,13 +34,21 @@ Local SQLite records and uploads are stored in `.campus-data/`. Back up the whol
 
 ## Checks
 
+Use Node.js 24 or newer. Run the full configured suite from the project folder:
+
+```sh
+npm test
 ```
+
+For a focused change, these checks are also available:
+
+```sh
 node tests/api.test.mjs
 node tests/screens.test.cjs
 node tests/admin-screens.test.cjs
 ```
 
-API tests use real in-memory SQLite. Screen tests use a DOM stub; they are not browser visual tests.
+API tests use real in-memory SQLite. Screen tests use a DOM stub; they are not browser visual tests. Passing tests does not prove that the hosted service or every phone layout works. Follow the [class demo checklist](docs/class-demo-checklist.md) for manual checks, and report any checks you did not run.
 
 ## Hosted website
 
