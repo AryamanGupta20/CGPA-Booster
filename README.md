@@ -7,6 +7,7 @@ CGPA Booster brings study and career support into one student website, with a Pr
 ## Project guides
 
 - [Run on another laptop](docs/run-on-another-laptop.md) — setup and common local errors.
+- [Local backup and restore](docs/local-data-backup.md) — protect and check local test data.
 - [Class demo checklist](docs/class-demo-checklist.md) — checks before a presentation.
 - [Contributing guide](CONTRIBUTING.md) — how to prepare and check changes.
 - [Report a bug](https://github.com/AryamanGupta20/CGPA-Booster/issues/new?template=bug_report.md) — describe a problem with steps to repeat it.
@@ -30,7 +31,9 @@ The project owner's email is reserved for admin signup. The private setup code i
 
 ## Data
 
-Local SQLite records and uploads are stored in `.campus-data/`. Back up the whole directory. It is excluded from Git. Do not deploy this local SQLite version on a host that deletes its disk on restart.
+Local SQLite records and uploads are stored in `.campus-data/`. Stop the local server before copying the whole directory to a private backup location. Follow the [backup and restore guide](docs/local-data-backup.md) and check the backup in a separate test copy before relying on it.
+
+The data directory is excluded from Git and must not be included when sharing the source code. These local backups do not back up the hosted Cloudflare database. Do not deploy this local SQLite version on a host that deletes its disk on restart.
 
 ## Checks
 
