@@ -13,6 +13,17 @@ Use a test account with fictional details. This checklist records what to check;
 - [ ] Check that a student account cannot open admin-only pages.
 - [ ] Keep private setup codes, passwords and real student records off the shared screen.
 
+## Phone and keyboard checks
+
+- [ ] Try a narrow phone screen and check for sideways scrolling.
+- [ ] Open the keyboard while filling a form; confirm the field and submit button remain reachable.
+- [ ] Use Tab and Shift+Tab to move through controls and confirm the focused control is visible.
+- [ ] Activate buttons with the keyboard and check that menus or dialogs can be closed.
+- [ ] Increase browser zoom to 200% and confirm text and actions remain usable.
+- [ ] Enable the device's reduced-motion setting and check pages with animation.
+
+Record failures as issues. Completing this checklist is a practical check, not a full accessibility audit.
+
 ## During the presentation
 
 1. Explain which student problem the website helps solve.
