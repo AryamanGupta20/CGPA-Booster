@@ -47,3 +47,17 @@ PORT=4174 npm start
 ```
 
 To return to the default port in PowerShell, stop the server and run `Remove-Item Env:PORT`, then run `npm start` again.
+
+## Windows terminal troubleshooting
+
+If PowerShell says that `npm.ps1` cannot run because scripts are disabled, use:
+
+```powershell
+npm.cmd start
+```
+
+This uses the Windows command launcher without changing the computer's script security policy. You can also select Command Prompt as the VS Code terminal profile and run `npm start`.
+
+If the terminal is in the wrong folder, use **File > Open Folder** to open the folder containing `package.json`, close the old terminal and open a new one. Do not run the project from inside a ZIP preview; extract it first.
+
+If you share a startup error screenshot, crop out the private owner setup code and any personal information.
