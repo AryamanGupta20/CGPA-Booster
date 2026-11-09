@@ -23,6 +23,18 @@ Follow [Run on another laptop](docs/run-on-another-laptop.md). Use fictional acc
 
 Screen tests use a DOM stub. They do not replace checking the actual pages in a browser. For visual changes, check phone and desktop layouts, keyboard focus and readable text. For saving changes, verify the result after refreshing.
 
+## Check slow and failed requests
+
+For changes involving requests or saving, use fictional data on a local or test setup:
+
+1. Check the normal result first.
+2. Use browser network controls to try a slow connection and an offline request.
+3. Confirm the page shows a clear loading or error state instead of a false success.
+4. Restore the connection and check whether retrying creates a duplicate.
+5. Refresh and confirm the final saved result.
+
+Record what you actually observed. Do not run load tests or deliberately disrupt real student sessions to check these cases.
+
 ## Protect data and access
 
 Do not commit private environment files, passwords, tokens, database files or student uploads. Never remove access checks just to make a screen load. Keep server-side permission checks for admin actions.
