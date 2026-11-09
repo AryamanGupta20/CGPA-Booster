@@ -24,6 +24,20 @@ What should the student be able to do?
 
 Describe a result we can check, such as completing a task with fewer steps.
 
+## What counts as complete?
+
+List a few results that someone can check. For example:
+
+- A student can complete the task on a phone.
+- Empty or invalid input shows a helpful message.
+- Saved changes remain after refreshing.
+
+Replace these examples with checks for your request.
+
+## When something goes wrong
+
+What should happen if there is no data, the connection is slow, or the request fails? Should the student be able to retry without creating duplicates?
+
 ## Other options
 
 Can an existing tool solve this problem with a small change?
