@@ -61,3 +61,27 @@ This uses the Windows command launcher without changing the computer's script se
 If the terminal is in the wrong folder, use **File > Open Folder** to open the folder containing `package.json`, close the old terminal and open a new one. Do not run the project from inside a ZIP preview; extract it first.
 
 If you share a startup error screenshot, crop out the private owner setup code and any personal information.
+
+## Get a newer project version
+
+Stop the local server before updating. Keep a [private backup of local data](local-data-backup.md) and preserve any source files you changed.
+
+### If you downloaded a ZIP
+
+Download the new ZIP from the repository and extract it into a new folder. Keep the old folder until the new version starts successfully. A new folder starts with separate local data unless you deliberately restore a backup.
+
+Do not drag the new ZIP over your only working copy. Compare and reapply your own source changes carefully.
+
+### If you cloned with Git
+
+Run `git status` first. If there are local changes, preserve and review them before updating; do not discard them just to make the update work.
+
+With a clean working tree on `main`, run:
+
+```sh
+git pull --ff-only origin main
+```
+
+If Git reports that it cannot fast-forward, stop and inspect the branch difference. Do not force-reset the folder.
+
+After updating, run `npm start` and check the pages you use. Updating a local copy does not publish it to the live website.
