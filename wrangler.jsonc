@@ -9,8 +9,18 @@
     "directory": "./public",
     "binding": "ASSETS",
     "run_worker_first": [
-      "/api/*"
-    ]
+      "/api/*",
+      "/",
+      "/login",
+      "/signup",
+      "/dashboard",
+      "/index.html",
+      "/login.html",
+      "/signup.html",
+      "/dashboard.html",
+      "/p/*"
+    ],
+    "not_found_handling": "404-page"
   },
   "workers_dev": true,
   "preview_urls": false,

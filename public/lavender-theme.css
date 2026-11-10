@@ -1,3 +1,4 @@
+@layer base {
 /* Shared Passport palette. Welcome is deliberately excluded. */
 @media screen {
 :root[data-orbit-theme=lavender]{color-scheme:light;--orbit-ink:#233967;--orbit-muted:#5c6787;--orbit-purple:#346be5}
@@ -119,4 +120,6 @@
 }
 @media screen {
 :root[data-orbit-theme=lavender] #hologram-collexion-demo .pd-hero :is(.pd-field,label){color:#dce8ff!important}
+}
+
 }
