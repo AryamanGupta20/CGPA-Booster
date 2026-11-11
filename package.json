@@ -8,13 +8,13 @@
   },
   "scripts": {
     "start": "node server/local.mjs",
-    "test": "node tests/api.test.mjs && node tests/screens.test.cjs && node tests/member-welcome.test.cjs && node tests/admin-screens.test.cjs && node tests/worker.test.mjs && node tests/study.test.cjs && node tests/placement.test.cjs && node tests/placement-validation.test.mjs && node tests/community.test.mjs && node tests/studio.test.mjs && node tests/visual-schema.test.mjs && node tests/request-query-budget.test.mjs && node tests/noticeboard.test.mjs && node tests/hiring-routes-admin.test.cjs && node tests/showcase-migration.test.mjs && node tests/client-reliability.test.cjs && node tests/save-consistency.test.mjs && node tests/security.test.mjs && node tests/auth-races.test.mjs && node tests/restore-drill.test.mjs && node tests/split-hosting.test.mjs && node tests/split-flow.test.mjs && node tests/cutover-probe.test.mjs && node tests/auth-protection.test.mjs && node tests/launch-readiness.test.mjs",
+    "test": "node tests/api.test.mjs && node tests/screens.test.cjs && node tests/member-welcome.test.cjs && node tests/admin-screens.test.cjs && node tests/worker.test.mjs && node tests/study.test.cjs && node tests/placement.test.cjs && node tests/placement-validation.test.mjs && node tests/community.test.mjs && node tests/studio.test.mjs && node tests/visual-schema.test.mjs && node tests/request-query-budget.test.mjs && node tests/noticeboard.test.mjs && node tests/hiring-routes-admin.test.cjs && node tests/showcase-migration.test.mjs && node tests/client-reliability.test.cjs && node tests/save-consistency.test.mjs && node tests/security.test.mjs && node tests/auth-races.test.mjs && node tests/restore-drill.test.mjs && node tests/split-hosting.test.mjs && node tests/split-flow.test.mjs && node tests/cutover-probe.test.mjs && node tests/auth-protection.test.mjs && node tests/launch-readiness.test.mjs && node tests/checklist-hardening.test.mjs",
     "deploy": "wrangler d1 migrations apply DB --remote --config wrangler.backend.json && wrangler deploy",
     "test:load:local": "node scripts/local-signup-load.mjs",
     "deploy:backend": "wrangler deploy --config wrangler.backend.json"
   },
   "devDependencies": {
-    "wrangler": "4.158.0"
+    "wrangler": "4.160.0"
   },
   "cloudflare": {
     "bindings": {
