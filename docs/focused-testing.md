@@ -28,3 +28,16 @@ Included tests:
 - `tests/auth-protection.test.mjs`
 - `tests/auth-races.test.mjs`
 - `tests/split-flow.test.mjs`
+
+## Security
+
+Run `npm run test:security`.
+
+Use after changing authorization, uploads, private content or request forwarding. The restore test uses an isolated local database. This group is not a penetration test, malware scan or hosted backup restore.
+
+Included tests:
+
+- `tests/security.test.mjs`
+- `tests/checklist-hardening.test.mjs`
+- `tests/split-hosting.test.mjs`
+- `tests/restore-drill.test.mjs`
