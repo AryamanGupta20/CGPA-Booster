@@ -41,3 +41,16 @@ Included tests:
 - `tests/checklist-hardening.test.mjs`
 - `tests/split-hosting.test.mjs`
 - `tests/restore-drill.test.mjs`
+
+## Study
+
+Run `npm run test:study`.
+
+Use after changing exam planning, placement preparation or opportunity validation. Tests check application behavior, not the accuracy of university syllabuses or whether a job opening remains available. Review external resources separately.
+
+Included tests:
+
+- `tests/study.test.cjs`
+- `tests/placement.test.cjs`
+- `tests/placement-validation.test.mjs`
+- `tests/hiring-routes-admin.test.cjs`

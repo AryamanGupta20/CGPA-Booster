@@ -14,7 +14,8 @@
     "deploy:backend": "wrangler deploy --config wrangler.backend.json",
     "test:usability": "node tests/usability-search.test.mjs && node tests/usability-loading.test.mjs && node tests/usability-theme.test.mjs && node tests/usability-menu.test.mjs",
     "test:auth": "node tests/auth-protection.test.mjs && node tests/auth-races.test.mjs && node tests/split-flow.test.mjs",
-    "test:security": "node tests/security.test.mjs && node tests/checklist-hardening.test.mjs && node tests/split-hosting.test.mjs && node tests/restore-drill.test.mjs"
+    "test:security": "node tests/security.test.mjs && node tests/checklist-hardening.test.mjs && node tests/split-hosting.test.mjs && node tests/restore-drill.test.mjs",
+    "test:study": "node tests/study.test.cjs && node tests/placement.test.cjs && node tests/placement-validation.test.mjs && node tests/hiring-routes-admin.test.cjs"
   },
   "devDependencies": {
     "wrangler": "4.160.0"
