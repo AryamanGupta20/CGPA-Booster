@@ -12,7 +12,8 @@
     "deploy": "wrangler d1 migrations apply DB --remote --config wrangler.backend.json && wrangler deploy",
     "test:load:local": "node scripts/local-signup-load.mjs",
     "deploy:backend": "wrangler deploy --config wrangler.backend.json",
-    "test:usability": "node tests/usability-search.test.mjs && node tests/usability-loading.test.mjs && node tests/usability-theme.test.mjs && node tests/usability-menu.test.mjs"
+    "test:usability": "node tests/usability-search.test.mjs && node tests/usability-loading.test.mjs && node tests/usability-theme.test.mjs && node tests/usability-menu.test.mjs",
+    "test:auth": "node tests/auth-protection.test.mjs && node tests/auth-races.test.mjs && node tests/split-flow.test.mjs"
   },
   "devDependencies": {
     "wrangler": "4.160.0"

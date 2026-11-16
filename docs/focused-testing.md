@@ -16,3 +16,15 @@ Included tests:
 - `tests/usability-loading.test.mjs`
 - `tests/usability-theme.test.mjs`
 - `tests/usability-menu.test.mjs`
+
+## Auth
+
+Run `npm run test:auth`.
+
+Use after changing signup, login, recovery, bot checks or session handling. These use local test data and simulated bot verification. They do not prove that the live Turnstile widget or email delivery works.
+
+Included tests:
+
+- `tests/auth-protection.test.mjs`
+- `tests/auth-races.test.mjs`
+- `tests/split-flow.test.mjs`
