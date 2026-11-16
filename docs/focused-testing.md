@@ -54,3 +54,16 @@ Included tests:
 - `tests/placement.test.cjs`
 - `tests/placement-validation.test.mjs`
 - `tests/hiring-routes-admin.test.cjs`
+
+## Community
+
+Run `npm run test:community`.
+
+Use after changing community features, admin publishing, noticeboards or visual settings. Verify the changed interface in a browser as well. These local checks do not measure production capacity.
+
+Included tests:
+
+- `tests/community.test.mjs`
+- `tests/studio.test.mjs`
+- `tests/noticeboard.test.mjs`
+- `tests/visual-schema.test.mjs`
