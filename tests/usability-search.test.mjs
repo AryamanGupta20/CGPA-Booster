@@ -12,8 +12,10 @@ for(const query of ['resume','résumé','RESUME','  résumé  ']){
  assert.equal(nodes['ux-result-count'].textContent,'1 result');
 }
 for(const query of ['B.Tech','B.Sc.','M.C.A.','computer science'])assert.match(search(query),/data-key="courses"/);
+assert.match(search('exam'),/data-key="exams"/);
+assert.match(search('portfolio'),/data-key="portfolio"/);
 assert.match(search('placement'),/data-key="placement"/);
-search('');assert.equal(nodes['ux-result-count'].textContent,'9 results');
+search('');assert.equal(nodes['ux-result-count'].textContent,'14 results');
 assert.match(search('no matching tool xyz'),/No matching tool/);
 assert.equal(nodes['ux-result-count'].textContent,'0 results');
 assert.doesNotMatch(search('<script>alert(1)</script>'),/<script>/);

@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-18-study-navigation",
+  "apiContract": 1,
+  "backendChanges": false,
+  "assets": {
+    "boot.js": "b0a89ef368619cde344161984cad01521dbabd8992ac927646ada671e7def02a",
+    "dashboard-summary.js": "0bf9598d77e29ab586c2fa4bd371bddea35d3a457efc765084c0613f985d42e2",
+    "community.js": "3b851da7f43df463189ee4a559a1b9a5348a300e9c10ce9195b3d2d0b20ea94f",
+    "student.js": "99e853f46c38fc6fba6d4189058c221507050b6bb5342df47c85e507115059cc",
+    "welcome.js": "0759384eecad33c27cde1d9f07536c8471cbd89213ba37a802814772df04932a",
+    "professional.css": "6b945c90506e9a6e3df0098b67cea3ef59f0e21745e876e193c18467c825f7d3",
+    "usability.js": "eeb5218039b3a26ceea5b5ec03e433ac6b11436390537f87f3936016bdf07c5c",
+    "usability.css": "d33fd60cc9d4883d54a10971e51bb02bff9e7cb396007b23f273ae87f1c404ab",
+    "auth-protection.js": "539095a301ff299ba79e7a5d90b950fd41e7d8d81da2e6e4176031e8d765abdb",
+    "admin.js": "b00244fff35d59a98096fe2c02d66874bafd00b974ecbc5ea7cbebb74a981570",
+    "career-tools.js": "0dfb89624581ff95f3058cd6c1d6e4bc8cb49b58c124d98614f868b4bb0514d7",
+    "study-tools.js": "2372343af085c3a5b5f7c4fe3ca795ec40668b42038651aaa4a4e951e5ce10fb",
+    "control-studio.js": "c94e269ef08c9aca800a7414696c9dfb728f78822a9e5f8fe18d5ece396a2b02",
+    "orbit-mark.svg": "dd960c22322faf20eef8b9489c2dd305c8de772c8e9c0765b3964fed37a62f8a"
+  }
+}

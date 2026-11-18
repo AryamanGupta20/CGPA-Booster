@@ -23,7 +23,7 @@ function plan(state,now=today()){
  }
  return {days,tasks,unplaced,errors,required:tasks.filter(t=>!completed.has(t.id)).reduce((n,t)=>n+t.minutes,0),available:days.reduce((n,d)=>n+d.capacity,0)};
 }
-function parseDates(text){return String(text).split(/\n/).map(line=>{const m=line.match(/\b(\d{4})-(\d{2})-(\d{2})\b|\b(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})\b/);if(!m)return null;const date=m[1]?m[0]:`${m[6]}-${m[5].padStart(2,'0')}-${m[4].padStart(2,'0')}`;return Number.isFinite(stamp(date))?{name:line.replace(m[0],'').replace(/^[\s|,:-]+|[\s|,:-]+$/g,'').slice(0,120),date}:null;}).filter(Boolean).slice(0,10);}
+function parseDates(text){return String(text).split(/\n/).map(line=>{const m=line.match(/\b(\d{4})-(\d{2})-(\d{2})\b|\b(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})\b/);if(!m)return null;const date=m[1]?m[0]:`${m[6]}-${m[5].padStart(2,'0')}-${m[4].padStart(2,'0')}`;return Number.isFinite(stamp(date))?{name:line.replace(m[0],'').replace(/^[\s|,:—–-]+|[\s|,:—–-]+$/g,'').slice(0,120),date}:null;}).filter(Boolean).slice(0,10);}
 window.CampusStudy={plan,parseDates,today};
 window.createCampusStudyTools=function({root,screen,initial,resources,save,render}){
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
